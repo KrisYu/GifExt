@@ -17,7 +17,7 @@ Basically this is a copycat of [SwiftGif](https://github.com/bahlo/SwiftGif). Di
 
 Since this is just an Extension, you can just 
 
-1. download the GifExt.swift file 
+1. download the [GifExt.swift](https://github.com/KrisYu/GifExt/blob/master/GifExt.swift) file 
 2. add it to your project.
 3. use it like as below
 
@@ -32,6 +32,9 @@ let webGifURL = URL(string: "https://media.giphy.com/media/3og0IuvANdUUmpVeA8/gi
 webImageView.loadGif(url: webGifURL!)
 ```
 
-Also because this is an Extension, you 
+
+
+
+
 
 
