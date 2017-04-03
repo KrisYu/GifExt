@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C8865A3D1E91BFFE00CCC0E8"
+               BlueprintIdentifier = "C8865A5F1E91C72100CCC0E8"
                BuildableName = "GifExtDemo.app"
                BlueprintName = "GifExtDemo"
                ReferencedContainer = "container:GifExtDemo.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C8865A3D1E91BFFE00CCC0E8"
+            BlueprintIdentifier = "C8865A5F1E91C72100CCC0E8"
             BuildableName = "GifExtDemo.app"
             BlueprintName = "GifExtDemo"
             ReferencedContainer = "container:GifExtDemo.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C8865A3D1E91BFFE00CCC0E8"
+            BlueprintIdentifier = "C8865A5F1E91C72100CCC0E8"
             BuildableName = "GifExtDemo.app"
             BlueprintName = "GifExtDemo"
             ReferencedContainer = "container:GifExtDemo.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C8865A3D1E91BFFE00CCC0E8"
+            BlueprintIdentifier = "C8865A5F1E91C72100CCC0E8"
             BuildableName = "GifExtDemo.app"
             BlueprintName = "GifExtDemo"
             ReferencedContainer = "container:GifExtDemo.xcodeproj">

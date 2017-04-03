@@ -21,28 +21,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OGo-we-hzw">
-                                <rect key="frame" x="0.0" y="28" width="375" height="279"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8JW-Tr-MRg">
+                                <rect key="frame" x="0.0" y="28" width="375" height="289"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ulT-TK-O5K">
-                                <rect key="frame" x="0.0" y="327" width="375" height="300"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6va-IB-h6p">
+                                <rect key="frame" x="0.0" y="337" width="375" height="300"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OGo-we-hzw" secondAttribute="bottom" constant="360" id="1cb-Vf-Jpe"/>
-                            <constraint firstItem="ulT-TK-O5K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Dzm-Cn-xZh"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ulT-TK-O5K" secondAttribute="bottom" constant="40" id="VLV-GX-eI6"/>
-                            <constraint firstAttribute="trailing" secondItem="ulT-TK-O5K" secondAttribute="trailing" id="aIW-fR-PKw"/>
-                            <constraint firstItem="ulT-TK-O5K" firstAttribute="top" secondItem="OGo-we-hzw" secondAttribute="bottom" constant="20" id="ghh-UX-vli"/>
-                            <constraint firstItem="OGo-we-hzw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ipQ-Zn-evC"/>
-                            <constraint firstItem="OGo-we-hzw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="s2G-SN-JgT"/>
-                            <constraint firstAttribute="trailing" secondItem="OGo-we-hzw" secondAttribute="trailing" id="sIa-Wd-p8B"/>
+                            <constraint firstItem="6va-IB-h6p" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4gw-Ih-lMc"/>
+                            <constraint firstAttribute="trailing" secondItem="8JW-Tr-MRg" secondAttribute="trailing" id="6kF-tY-iuZ"/>
+                            <constraint firstAttribute="trailing" secondItem="6va-IB-h6p" secondAttribute="trailing" id="7Uy-g0-yUc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6va-IB-h6p" secondAttribute="bottom" constant="30" id="8ul-2N-0SM"/>
+                            <constraint firstItem="6va-IB-h6p" firstAttribute="top" secondItem="8JW-Tr-MRg" secondAttribute="bottom" constant="20" id="J9I-GI-eCs"/>
+                            <constraint firstItem="8JW-Tr-MRg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="R1z-g2-VhZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8JW-Tr-MRg" secondAttribute="bottom" constant="350" id="RtA-e1-kXI"/>
+                            <constraint firstItem="8JW-Tr-MRg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="gro-zw-UNf"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="localImageView" destination="OGo-we-hzw" id="xEb-Ys-yf7"/>
-                        <outlet property="webImageView" destination="ulT-TK-O5K" id="aIR-Pc-Hh0"/>
+                        <outlet property="localImageView" destination="8JW-Tr-MRg" id="rqu-Ms-8lU"/>
+                        <outlet property="webImageView" destination="6va-IB-h6p" id="MIk-4I-ghz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
